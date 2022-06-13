@@ -10,7 +10,8 @@ body {
 }
 
 body {
-  background: #3b4acd;
+  /* background: #3b4acd; */
+  background-color: #313a52;
   color: #a5b2d3;
   padding: 0.5em;
   font-family: serif;
@@ -58,14 +59,15 @@ a.cta-btn {
 
 nav {
   position: fixed;
-  background: #576483;
+  /* background: #576483; */
+  background-color: #293144;
   height: 100vh;
   left: 0;
   top: 0;
   width: 80%;
-  visibility: hidden;
+  visibility: visible;
   transform: translateX(-50%);
-  opacity: 0;
+  opacity: 1;
   transition: all 0.3s;
   text-align: center;
 }
