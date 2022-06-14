@@ -47,10 +47,10 @@ a.logo {
 a.cta-btn {
   margin-left: auto;
   background: #fc85ae;
-  padding: 1em;
+  padding: 0.2em 0.4em;
   display: inline-block;
   border-radius: 2em;
-  font-size: 0.6em;
+  font-size: 0.9em;
   color: #303a52;
   font-weight: bold;
   text-decoration: none;
@@ -70,11 +70,11 @@ nav {
   left: 0;
   top: 0;
   width: 80%;
-  visibility: hidden;
+  visibility: visible;
   transform: translateX(-50%);
-  opacity: 0;
+  opacity: 1;
   transition: all 0.3s;
-  text-align: center;
+  text-align: left;
 }
 
 nav p {
@@ -89,7 +89,7 @@ nav svg {
 nav ul li a {
   display: block;
   padding: 0.2em;
-  font-size: 1.8em;
+  font-size: 1.2em;
   text-decoration: none;
 }
 
@@ -119,11 +119,12 @@ h1 {
 h3 {
   color: #fc85ae;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: unset;
 }
 
 p {
   font-size: 1rem;
+  line-height: 1.4em;
 }
 
 ul.data li p {
