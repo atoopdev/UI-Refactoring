@@ -185,4 +185,39 @@ main {
   .panel ul.data li p {
     margin-bottom: 0;
   }
+  .nav{
+    width: 40%;
+  }
+}
+
+@media (min-width: 720px) {
+  body {
+    padding: 1.5em;
+  }
+
+  .columns{
+    display: flex;
+  }
+
+  .col{
+    flex: 0 0 48%;
+  }
+
+  .secondary{
+    margin-left: 3em;
+  }
+
+  ul.secondary{
+    margin-top: 0;
+  }
+
+  .nav{
+    width: 30%;
+  }
+
+  /* .col ul.data li {
+    /* 4col layout bottom panel */
+    /* flex: 0 0 25%;
+    justify-content: center;
+  } */ */
 }
