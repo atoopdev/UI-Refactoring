@@ -155,3 +155,34 @@ main {
 .inner-wrapper {
   padding: 1em;
 }
+
+@media (min-width: 420px) {
+  body {
+    padding: 1em;
+    text-align: left;
+  }
+
+  ul.data {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  ul.data li {
+    /* makes 2 col layout */
+    flex: 0 0 50%;
+  }
+}
+
+@media (min-width: 550px) {
+  ul.data {
+    justify-content: center;
+  }
+  .panel ul.data li {
+    /* makes 3 col layout for top data panel */
+    flex: 0 0 33%;
+  }
+
+  .panel ul.data li p {
+    margin-bottom: 0;
+  }
+}
