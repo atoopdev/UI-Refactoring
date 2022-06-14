@@ -14,7 +14,7 @@ body {
   background-color: #313a52;
   color: #a5b2d3;
   padding: 0.5em;
-  font-family: serif;
+  font-family: "Nunito", sans-serif;
   height: 100vh;
   text-align: center;
 }
@@ -53,6 +53,11 @@ a.cta-btn {
   font-size: 0.6em;
   color: #303a52;
   font-weight: bold;
+  text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
 }
 
 /* Navigation */
@@ -65,9 +70,9 @@ nav {
   left: 0;
   top: 0;
   width: 80%;
-  visibility: visible;
+  visibility: hidden;
   transform: translateX(-50%);
-  opacity: 1;
+  opacity: 0;
   transition: all 0.3s;
   text-align: center;
 }
@@ -85,6 +90,7 @@ nav ul li a {
   display: block;
   padding: 0.2em;
   font-size: 1.8em;
+  text-decoration: none;
 }
 
 .selected {
@@ -102,6 +108,7 @@ nav ul li a {
 h1 {
   color: white;
   margin-top: 1em;
+  font-size: 2.5rem;
 }
 
 .panel {
@@ -112,13 +119,17 @@ h1 {
 h3 {
   color: #fc85ae;
   margin: 0;
-  font-size: 2em;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
 }
 
 ul.data li p {
   color: white;
   font-weight: bold;
-  font-size: 1.8em;
+  font-size: 1.25em;
   margin: 0.3em 0 1em;
 }
 
@@ -129,9 +140,9 @@ ul.secondary {
   margin-top: 2em;
 }
 ul.secondary li p {
-  font-size: 1.3em;
+  font-size: 1.25rem;
 }
 
 main {
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
